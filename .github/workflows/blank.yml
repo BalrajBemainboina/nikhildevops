@@ -35,4 +35,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo 'Executing'
-          curl -D- -u balraj89yadav@gmail.com:$jiratoken -X POST --data "{\"body\": \"This is automated comment from github action api.\"}" -H "Content-Type: application/json" https://nikhildevops.atlassian.net/rest/api/3/issue/DEV-1
+          curl -D- -u balraj89yadav@gmail.com:$jiratoken -X POST --data "{\"body\": \"This is automated comment from github action api.\"}" -H "Content-Type: application/json" https://nikhildevops.atlassian.net/rest/api/2/issue/DEV-1
